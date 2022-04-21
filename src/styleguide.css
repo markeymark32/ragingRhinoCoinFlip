@@ -1,0 +1,68 @@
+:root {
+  --black: #000000;
+  --caribbean-green-pearl: #57f287;
+  --eerie-black: #24191f;
+  --mortar: #57444f;
+  --mortar-2: #57454f;
+  --sunset-orange: #f74b38;
+  --white: #ffffff;
+
+  --font-size-l: 26px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xl: 34px;
+  --font-size-xxl: 54px;
+
+  --font-family-pixeloid_sans-bold: "Pixeloid Sans-Bold", Helvetica;
+  --font-family-pixeloid_sans-regular: "Pixeloid Sans-Regular", Helvetica;
+}
+.pixeloidsans-regular-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-pixeloid_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pixeloidsans-regular-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-pixeloid_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pixeloidsans-regular-normal-white-18px-2 {
+  font-family: var(--font-family-pixeloid_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pixeloidsans-regular-normal-caribbean-green-pearl-18px {
+  color: var(--caribbean-green-pearl);
+  font-family: var(--font-family-pixeloid_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pixeloidsans-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-pixeloid_sans-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-mortar {
+  border: 1px solid var(--mortar);
+}
+
+.pixeloidsans-regular-normal-caribbean-red-pearl-18px {
+  color: var(--coral-red);
+  font-family: var(--font-family-pixeloid_sans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

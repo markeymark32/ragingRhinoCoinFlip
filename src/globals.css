@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Pixeloid Sans-Regular";
+  src: url("PixeloidSans.eot");
+  src: url("PixeloidSans.eot?#iefix") format("embedded-opentype"),
+    url("PixeloidSans.woff2") format("woff2"),
+    url("PixeloidSans.woff") format("woff"),
+    url("PixeloidSans.svg#PixeloidSans") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Pixeloid Sans-Bold";
+  src: url("PixeloidSans-Bold.eot");
+  src: url("PixeloidSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("PixeloidSans-Bold.woff2") format("woff2"),
+    url("PixeloidSans-Bold.woff") format("woff"),
+    url("PixeloidSans-Bold.svg#PixeloidSans-Bold") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
